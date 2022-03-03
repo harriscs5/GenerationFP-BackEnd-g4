@@ -5,28 +5,28 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class WebController {
-    @RequestMapping(value = "/index")
-    public String index() {
-        return "index";
+    @RequestMapping(value = "/home")
+    public String home() {
+        return "home";
     }
-    @RequestMapping(value = "/about")
-    public String about() {
-        return "about";
+    @RequestMapping(value = "/About2")
+    public String About2() {
+        return "About2";
     }
-    @RequestMapping(value = "/items")
-    public String items() {
-        return "items";
+    @RequestMapping(value = "/product_catalog")
+    public String product_catalog() {
+        return "product_catalog";
     }
-    @RequestMapping(value = "/login")
-    public String login() {
-        return "login";
+    @RequestMapping(value = "/logIn")
+    public String logIn() {
+        return "logIn";
     }
-    @RequestMapping(value = "/form")
-    public String form() {
-        return "item_form";
+    @RequestMapping(value = "/contactUs")
+    public String contactUs() {
+        return "contactUs";
     }
-    @RequestMapping(value = "/update")
-    public String update() {
-        return "update_form";
+    @RequestMapping(value = "/item-form")
+    public String item-form() {
+        return "item-form";
     }
 }
