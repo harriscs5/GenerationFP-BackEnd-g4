@@ -19,14 +19,14 @@ public class WebController {
     }
     @RequestMapping(value = "/login")
     public String login() {
-        return "log_in";
+        return "login";
     }
     @RequestMapping(value = "/contact")
     public String contactus() {
         return "contact";
     }
-    @RequestMapping(value = "/itemform")
-    public String itemform() {
+    @RequestMapping(value = "/item_form")
+    public String item_form() {
         return "item_form";
     }
 }
