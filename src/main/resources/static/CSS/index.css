@@ -426,6 +426,12 @@ footer {
   color: #999;
 }
 
+#body-text2{
+  font-size: 18px;
+  text-align: center;
+  color: #999;
+}
+
 .title {
   color: #5bc0de;
   font-size: 25px;
