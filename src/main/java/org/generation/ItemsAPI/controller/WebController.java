@@ -17,8 +17,8 @@ public class WebController {
     public String product_catalog() {
         return "product_catalog";
     }
-    @RequestMapping(value = "/log_in")
-    public String log_in() {
+    @RequestMapping(value = "/login")
+    public String login() {
         return "log_in";
     }
     @RequestMapping(value = "/contact")
@@ -27,6 +27,6 @@ public class WebController {
     }
     @RequestMapping(value = "/itemform")
     public String itemform() {
-        return "itemform";
+        return "item_form";
     }
 }
