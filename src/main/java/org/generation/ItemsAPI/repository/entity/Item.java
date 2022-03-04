@@ -2,12 +2,10 @@ package org.generation.ItemsAPI.repository.entity;
 
 import org.generation.ItemsAPI.controller.dto.ItemDto;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name="heroku_13d3845ffa00bbe")
 public class Item {
 
     @Id
