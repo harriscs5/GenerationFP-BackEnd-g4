@@ -18,7 +18,7 @@ public class WebController {
         return "product_catalog";
     }
     @RequestMapping(value = "/login")
-    public String logIn() {
+    public String login() {
         return "login";
     }
     @RequestMapping(value = "/contact")
