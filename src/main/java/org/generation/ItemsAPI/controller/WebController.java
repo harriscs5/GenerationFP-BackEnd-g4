@@ -25,8 +25,8 @@ public class WebController {
     public String contactus() {
         return "contact";
     }
-    @RequestMapping(value = "/itemform")
-    public String itemform() {
-        return "itemform";
+    @RequestMapping(value = "/item_form")
+    public String item_form() {
+        return "item_form";
     }
 }
