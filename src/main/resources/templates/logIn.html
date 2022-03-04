@@ -1,5 +1,5 @@
-<i class="fas fa-acquisitions-incorporated    "></i><!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
     <!--  All snippets are MIT license http://bootdey.com/license -->
@@ -13,9 +13,9 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
      <!--Css Style Sheet -->
-    <link rel="stylesheet" href="loginPage-style.css">
-    <!-- Website scripts -->
-    <script src="login.js"></script>
+    <link href="login.css" rel="stylesheet" type="text/css">
+    <!-- JavaScript scripts -->
+    <script type="text/javascript" src="login.js"></script>
 <!--login form boostrap temp-->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -31,12 +31,12 @@
   
     <div id="main-nav" class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
-        <li><a href="/home" class="nav-item nav-link active">Home</a></li>
-        <li><a href="/About2" class="nav-item nav-link">About Us</a></li>
+        <li><a href="/index" class="nav-item nav-link active">Home</a></li>
+        <li><a href="/about" class="nav-item nav-link">About Us</a></li>
         <li><a href="/product_catalog" class="nav-item nav-link">Products</a></li>
-        <li><a href="/contactUs" class="nav-item nav-link active">Custom Order</a></li>
-        <li><a href="/logIn" class="nav-item nav-link">Login</a></li>
-        <li><a href="/itemForm" class="nav-item nav-link">New Item Form</a></li>
+        <li><a href="/contact" class="nav-item nav-link active">Custom Order</a></li>
+        <li><a href="/login" class="nav-item nav-link">Login</a></li>
+        <li><a href="/itemform" class="nav-item nav-link">New Item Form</a></li>
       </ul>
     </div>
   </div>
@@ -105,18 +105,18 @@
 				<h4>Information</h4>
 				<ul class="list-unstyled">
 					<li><a href="/product_catalog">Products</a></li>
-					<li><a href="/home#gallery">Photo Gallery</a></li>
-					<li><a href="/home#featured">Featured Products</a></li>
-					<li><a href="/About2">Developers</a></li>
+					<li><a href="/index#gallery">Photo Gallery</a></li>
+					<li><a href="/index#featured">Featured Products</a></li>
+					<li><a href="/about">Developers</a></li>
 				</ul>
 			</div>
 			<div class="col-xs-6 col-sm-3 column">
 				<h4>More</h4>
 				<ul class="list-unstyled">
-					<li><a href="/contactUs">Custom Order</a></li>
-					<li><a href="/logIn">Login</a></li>
-					<li><a href="/About2">About Us</a></li>
-					<li><a href="/home">Terms &amp; Conditions</a></li>
+					<li><a href="/contact">Custom Order</a></li>
+					<li><a href="/login">Login</a></li>
+					<li><a href="/about">About Us</a></li>
+					<li><a href="/index">Terms &amp; Conditions</a></li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-sm-3 column">

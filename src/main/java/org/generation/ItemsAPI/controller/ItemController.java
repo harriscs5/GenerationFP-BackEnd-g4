@@ -6,7 +6,7 @@ import org.generation.ItemsAPI.service.ItemService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/item")
+@RequestMapping("/product_catalog")
 public class ItemController {
 
     final ItemService itemService;
