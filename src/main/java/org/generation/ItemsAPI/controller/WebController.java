@@ -5,28 +5,28 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class WebController {
-    @RequestMapping(value = "/home")
+    @RequestMapping(value = "/index")
     public String home() {
-        return "home";
+        return "index";
     }
-    @RequestMapping(value = "/About2")
+    @RequestMapping(value = "/about")
     public String About2() {
-        return "About2";
+        return "about";
     }
     @RequestMapping(value = "/product_catalog")
     public String product_catalog() {
         return "product_catalog";
     }
-    @RequestMapping(value = "/logIn")
+    @RequestMapping(value = "/login")
     public String logIn() {
-        return "logIn";
+        return "login";
     }
-    @RequestMapping(value = "/contactUs")
+    @RequestMapping(value = "/contact")
     public String contactUs() {
-        return "contactUs";
+        return "contact";
     }
-    @RequestMapping(value = "/itemForm")
+    @RequestMapping(value = "/itemform")
     public String itemForm() {
-        return "itemForm";
+        return "itemform";
     }
 }
