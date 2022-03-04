@@ -5,7 +5,6 @@ import org.generation.ItemsAPI.controller.dto.ItemDto;
 import javax.persistence.*;
 
 @Entity
-@Table(name="heroku_13d3845ffa00bbe")
 public class Item {
 
     @Id
